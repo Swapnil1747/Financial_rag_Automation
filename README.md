@@ -17,11 +17,16 @@ A Retrieval-Augmented Generation (RAG) application for querying financial docume
 
 2. Install the required dependencies:
    ```
-   pip install streamlit ollama
+   pip install -r requirement.txt 
    ```
+   And
+   ```
+   pip install ollama
+   ```
+   
    Note: Ensure you have Ollama installed and running locally. You may need additional libraries like `langchain`, `faiss`, or others depending on the embedder and vector store implementations.
 
-3. If not already present, create a `requirements.txt` file with the necessary packages.
+4. If not already present, create a `requirements.txt` file with the necessary packages.
 
 ## Usage
 
